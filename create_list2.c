@@ -21,7 +21,7 @@ int main(void)
         exit(1);             
     }
     /* Loop to write 100 numbers to the file */
-    for( i = 0; i< 100; i++)
+    for( i = 0; i< 999; i++)
     {
         fprintf(fd, "%2.2d\n", i);
     }
